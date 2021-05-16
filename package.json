@@ -1,5 +1,11 @@
 {
-  "dependencies": {
+  "scripts": {
+    "start": "parcel src/index.html",
+    "build": "parcel build src/index.html"
+  },
+  "devDependencies": {
+    "elm-hot": "^1.1.6",
+    "node-elm-compiler": "^5.0.6",
     "parcel-bundler": "^1.12.5"
   }
 }
